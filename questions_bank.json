@@ -1,26 +1,3756 @@
 {
-  "version": "test-4",
-  "updatedAt": "2026-05-22",
+  "version": "2.0.0",
+  "updatedAt": "2026-05-23",
   "questions": [
     {
-      "id": "remote_test_1",
+      "id": "rv01",
       "subject": "verbal",
-      "topic": "Remote Test",
-      "questionText": "If the app fetched this from GitHub, refresh worked. What is 2 + 2?",
-      "choices": ["3", "4", "5", "6"],
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Which is grammatically correct?",
+      "choices": [
+        "The news are shocking.",
+        "The news is shocking.",
+        "The news were shocking.",
+        "A news is shocking."
+      ],
       "correctIndex": 1,
-      "explanation": "2 + 2 = 4. correctIndex is 0-based, so 4 is index 1.",
+      "explanation": "News is uncountable/singular in form.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv02",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Choose the correct sentence:",
+      "choices": [
+        "She is one of those who always volunteers.",
+        "She is one of those who always volunteer.",
+        "She is one of those whom always volunteer.",
+        "She is one of those which always volunteers."
+      ],
+      "correctIndex": 1,
+      "explanation": "Relative clause verb agrees with antecedent those: volunteer.",
       "difficulty": "easy"
     },
     {
-      "id": "remote_test_2",
+      "id": "rv03",
       "subject": "verbal",
-      "topic": "Remote Test",
-      "questionText": "If the app fetched this from GitHub, refresh worked. What is 2 + 2?",
-      "choices": ["3", "4", "5", "6"],
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Choose the correct sentence:",
+      "choices": [
+        "Neither the manager nor the employees was informed.",
+        "Neither the manager nor the employees were informed.",
+        "Neither the manager nor the employees is informed.",
+        "Neither the manager nor the employees has been informed."
+      ],
       "correctIndex": 1,
-      "explanation": "2 + 2 = 4. correctIndex is 0-based, so 4 is index 1.",
+      "explanation": "With \"neither...nor\", the verb agrees with the nearer subject (employees → plural \"were\").",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv04",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Select the sentence with correct subject-verb agreement:",
+      "choices": [
+        "The number of applicants are increasing.",
+        "The number of applicants is increasing.",
+        "A number of applicants has increased.",
+        "A number of applicants was increasing."
+      ],
+      "correctIndex": 1,
+      "explanation": "\"The number of\" is singular; use \"is increasing.\"",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv05",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Which sentence uses the correct pronoun?",
+      "choices": [
+        "Each student must submit their project.",
+        "Each student must submit his or her project.",
+        "Each student must submit it's project.",
+        "Each student must submit there project."
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Each\" is singular; traditional formal usage prefers \"his or her.\"",
       "difficulty": "easy"
+    },
+    {
+      "id": "rv06",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Identify the sentence with correct parallel structure:",
+      "choices": [
+        "She likes reading, to jog, and cooking.",
+        "She likes reading, jogging, and cooking.",
+        "She likes to read, jogging, and to cook.",
+        "She likes read, jog, and cooking."
+      ],
+      "correctIndex": 1,
+      "explanation": "Parallel gerunds: reading, jogging, and cooking.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv07",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Which is grammatically correct?",
+      "choices": [
+        "Between you and I, the test was fair.",
+        "Between you and me, the test was fair.",
+        "Between you and myself, the test was fair.",
+        "Between you and I myself, the test was fair."
+      ],
+      "correctIndex": 1,
+      "explanation": "After preposition \"between,\" use object pronoun \"me.\"",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv08",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Choose the correct form:",
+      "choices": [
+        "The committee have decided.",
+        "The committee has decided.",
+        "The committee are deciding.",
+        "The committee were decided."
+      ],
+      "correctIndex": 1,
+      "explanation": "Collective noun committee as a unit takes singular verb has.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv09",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Which sentence is correct?",
+      "choices": [
+        "He is taller than me.",
+        "He is taller than I.",
+        "He is more taller than I.",
+        "He is tallest than I am."
+      ],
+      "correctIndex": 1,
+      "explanation": "Formal comparison: \"than I (am).\"",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv10",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Select the properly punctuated sentence:",
+      "choices": [
+        "However we must review the policy.",
+        "However, we must review the policy.",
+        "However; we must review the policy.",
+        "However: we must review the policy."
+      ],
+      "correctIndex": 1,
+      "explanation": "Introductory conjunctive adverb However is followed by a comma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv11",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Which uses the correct modifier?",
+      "choices": [
+        "Running quickly, the finish line was crossed.",
+        "Running quickly, she crossed the finish line.",
+        "The finish line, running quickly, was crossed.",
+        "She crossed, running quickly, the finish line was near."
+      ],
+      "correctIndex": 1,
+      "explanation": "Dangling modifier fixed: she ran, not the finish line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv12",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Choose the correct sentence:",
+      "choices": [
+        "The data shows significant improvement.",
+        "The data show significant improvement.",
+        "The datas show significant improvement.",
+        "The data is show significant improvement."
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Data\" is plural; \"show\" is correct in formal usage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv13",
+      "subject": "verbal",
+      "topic": "Grammar and Correct Usage",
+      "questionText": "Which sentence avoids a double negative?",
+      "choices": [
+        "I can't hardly wait.",
+        "I can hardly wait.",
+        "I can't hardly not wait.",
+        "I hardly can't wait."
+      ],
+      "correctIndex": 1,
+      "explanation": "Can hardly is standard; cannot hardly is a double negative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv14",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "Choose the synonym of VERACITY:",
+      "choices": [
+        "Falsehood",
+        "Truthfulness",
+        "Speed",
+        "Strength"
+      ],
+      "correctIndex": 1,
+      "explanation": "Veracity = truth.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv15",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "MENDACIOUS means:",
+      "choices": [
+        "Truthful",
+        "Lying or dishonest",
+        "Healing",
+        "Gentle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mendacious = untruthful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv16",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "The word PUSILLANIMOUS means:",
+      "choices": [
+        "Brave",
+        "Cowardly",
+        "Strong",
+        "Wise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pusillanimous = timid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv17",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "Choose the antonym of ZEALOUS:",
+      "choices": [
+        "Enthusiastic",
+        "Apathetic",
+        "Eager",
+        "Passionate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zealous = fervent; apathetic is opposite.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv18",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "What does INEFFABLE mean?",
+      "choices": [
+        "Easily described",
+        "Too great to be expressed in words",
+        "Illegal",
+        "Efficient"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ineffable = beyond words.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv19",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "The word SURREPTITIOUS means:",
+      "choices": [
+        "Open",
+        "Secret or stealthy",
+        "Legal",
+        "Loud"
+      ],
+      "correctIndex": 1,
+      "explanation": "Surreptitious = clandestine.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv20",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "Choose the synonym of ACRIMONIOUS:",
+      "choices": [
+        "Sweet",
+        "Bitter in tone",
+        "Silent",
+        "Happy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acrimonious = sharp, bitter.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv21",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "What does MAGNANIMOUS mean?",
+      "choices": [
+        "Petty",
+        "Generous and forgiving",
+        "Angry",
+        "Small-minded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Magnanimous = noble, generous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv22",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "The word RECALCITRANT means:",
+      "choices": [
+        "Obedient",
+        "Stubbornly resistant",
+        "Quick",
+        "Friendly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recalcitrant = defiant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv23",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "Choose the antonym of GARRULOUS:",
+      "choices": [
+        "Talkative",
+        "Taciturn (reserved)",
+        "Loud",
+        "Friendly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Garrulous = overly talkative.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv24",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "What does PLACATE mean?",
+      "choices": [
+        "Anger",
+        "Soothe or appease",
+        "Attack",
+        "Ignore"
+      ],
+      "correctIndex": 1,
+      "explanation": "Placate = calm someone down.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv25",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "The word VITUPERATE means:",
+      "choices": [
+        "Praise",
+        "Criticize harshly",
+        "Heal",
+        "Build"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vituperate = berate verbally.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv26",
+      "subject": "verbal",
+      "topic": "Vocabulary",
+      "questionText": "What is the best synonym for ABSTEMIOUS?",
+      "choices": [
+        "Indulgent",
+        "Moderate in eating/drinking",
+        "Talkative",
+        "Greedy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abstemious means sparing, especially in diet.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv27",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Arrange logically: (1) Submit requirements (2) Receive test schedule (3) Create CSC account (4) Pay fee. Correct order:",
+      "choices": [
+        "3-4-1-2",
+        "4-3-1-2",
+        "1-3-4-2",
+        "2-1-3-4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Account → pay → submit → schedule.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv28",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which sentence is LEAST relevant in a paragraph on time management?",
+      "choices": [
+        "Prioritize tasks using urgency and importance.",
+        "Break study sessions into focused 25-minute blocks.",
+        "The Civil Service Commission was established in 1900.",
+        "Review your schedule at the end of each day."
+      ],
+      "correctIndex": 2,
+      "explanation": "CSC history is off-topic for time management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv29",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Best concluding sentence for a paragraph on healthy study habits:",
+      "choices": [
+        "Therefore, consistent sleep, nutrition, and breaks improve retention.",
+        "However, some exams are difficult.",
+        "First, buy many pens.",
+        "Because grammar is important."
+      ],
+      "correctIndex": 0,
+      "explanation": "Conclusion summarizes healthy habits' benefit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv30",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which should come AFTER introducing a main idea?",
+      "choices": [
+        "A supporting example or explanation",
+        "An unrelated anecdote about sports",
+        "A new unrelated thesis",
+        "A random quotation with no link"
+      ],
+      "correctIndex": 0,
+      "explanation": "Support follows the main idea.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv31",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Sentence that best transitions to examples:",
+      "choices": [
+        "Nevertheless, here are three practical strategies:",
+        "In 1521, Magellan arrived.",
+        "The end.",
+        "No one knows."
+      ],
+      "correctIndex": 0,
+      "explanation": "Transition word + preview of examples.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv32",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which order is most coherent for filing steps?",
+      "choices": [
+        "Label folders → sort documents → store alphabetically",
+        "Sort documents → label folders → store alphabetically",
+        "Store alphabetically → sort documents → label folders",
+        "Label folders → store → never sort"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sort, then label, then store.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv33",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which sentence belongs in the MIDDLE of a process paragraph?",
+      "choices": [
+        "First, read the exam guidelines carefully.",
+        "Next, practice with sample questions under time limits.",
+        "In conclusion, stay confident on exam day.",
+        "Civil service careers serve the public."
+      ],
+      "correctIndex": 1,
+      "explanation": "Next signals middle step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv34",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Least effective opening for formal writing:",
+      "choices": [
+        "This report examines 2025 pass rates by region.",
+        "Hey guys, let's talk exams lol.",
+        "Recent data suggest increased applicant volume.",
+        "The purpose of this memo is to outline procedures."
+      ],
+      "correctIndex": 1,
+      "explanation": "Informal opening is inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv35",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which pair shows correct chronological order?",
+      "choices": [
+        "Graduate → apply for CSE → review → take exam",
+        "Take exam → review → apply → graduate",
+        "Review → graduate → take exam → apply",
+        "Apply → take exam → graduate → review"
+      ],
+      "correctIndex": 0,
+      "explanation": "Logical life sequence for many applicants.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv36",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Best sentence to unify a paragraph on ethics:",
+      "choices": [
+        "Public servants must act with integrity in all transactions.",
+        "Pizza is popular worldwide.",
+        "Some clouds are gray.",
+        "Computers use electricity."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thematic unity on ethics.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv37",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which is a proper topic sentence?",
+      "choices": [
+        "Paragraph organization improves clarity and flow.",
+        "And then something happened maybe.",
+        "Because reasons.",
+        "Stuff and things."
+      ],
+      "correctIndex": 0,
+      "explanation": "Clear topic sentence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv38",
+      "subject": "verbal",
+      "topic": "Paragraph Organization",
+      "questionText": "Which should NOT start a concluding paragraph?",
+      "choices": [
+        "In summary, disciplined review raises your chances of passing.",
+        "To begin with, another new topic appears.",
+        "Overall, consistency matters more than cramming.",
+        "Ultimately, preparation reduces exam-day stress."
+      ],
+      "correctIndex": 1,
+      "explanation": "To begin with starts a paragraph, not concludes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv39",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"The memo prohibits using office internet for personal streaming during work hours.\" What is banned?",
+      "choices": [
+        "All internet",
+        "Personal streaming on duty",
+        "Email",
+        "Research"
+      ],
+      "correctIndex": 1,
+      "explanation": "Personal streaming during work banned.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv40",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Forest cover declined 5% in a decade; reforestation programs aim to restore watersheds.\" Goal of programs?",
+      "choices": [
+        "Increase logging",
+        "Restore watersheds",
+        "End all farming",
+        "Ban water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reforestation restores watersheds.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv41",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Applicants must bring valid ID and appointment slip; without both, entry is refused.\" Requirement?",
+      "choices": [
+        "Only cash",
+        "Valid ID and appointment slip",
+        "Recommendation letter only",
+        "No documents"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both ID and slip required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv42",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"The committee rejected the proposal citing lack of cost-benefit analysis.\" Reason for rejection?",
+      "choices": [
+        "Too much analysis",
+        "Missing cost-benefit analysis",
+        "Holiday schedule",
+        "Language used"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lacked cost-benefit analysis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv43",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Peer study groups explain solutions aloud, reinforcing memory through teaching.\" Why effective?",
+      "choices": [
+        "Silence only",
+        "Teaching reinforces memory",
+        "Avoids practice",
+        "Eliminates reading"
+      ],
+      "correctIndex": 1,
+      "explanation": "Explaining reinforces memory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv44",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Inflation rose 4%; the agency adjusted meal allowances accordingly.\" What happened to allowances?",
+      "choices": [
+        "They were adjusted upward",
+        "Banned forever",
+        "Unrelated to inflation",
+        "Cut to zero always"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adjusted due to inflation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv45",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Whistleblowers reporting corruption in good faith are protected from retaliation.\" Who is protected?",
+      "choices": [
+        "Corrupt officials",
+        "Good-faith whistleblowers",
+        "Bribe givers only",
+        "No one"
+      ],
+      "correctIndex": 1,
+      "explanation": "Good-faith whistleblowers protected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv46",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"The chart shows errors dropping each week as review continued.\" Trend?",
+      "choices": [
+        "Errors increased",
+        "Errors decreased over weeks",
+        "No change",
+        "Practice stopped"
+      ],
+      "correctIndex": 1,
+      "explanation": "Errors dropped weekly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv47",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Mobile permits reduced face-to-face contact but required digital literacy training for staff.\" Additional need?",
+      "choices": [
+        "No training",
+        "Digital literacy training",
+        "Remove all technology",
+        "Close offices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Staff needed digital literacy training.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rv48",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"The president of the student council, who is diligent, leads review sessions.\" Who leads sessions?",
+      "choices": [
+        "The council president",
+        "The principal only",
+        "No one",
+        "External tutor only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Council president leads.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rv49",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Only 30% of applicants passed; the board will review item difficulty.\" Possible board action?",
+      "choices": [
+        "Ignore results",
+        "Review item difficulty",
+        "Cancel civil service",
+        "Remove all exams"
+      ],
+      "correctIndex": 1,
+      "explanation": "Board may review difficulty.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rv50",
+      "subject": "verbal",
+      "topic": "Reading Comprehension",
+      "questionText": "Passage: \"Honest feedback, even when critical, helps offices improve services.\" Author values:",
+      "choices": [
+        "Flattery only",
+        "Constructive honesty",
+        "Silence",
+        "Gossip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Values constructive honesty.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn01",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 12 + 13?",
+      "choices": [
+        "25",
+        "26",
+        "28",
+        "23"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer is 25.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn02",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 13 × 14?",
+      "choices": [
+        "168",
+        "187",
+        "182",
+        "195"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer is 182.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn03",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 210 ÷ 15?",
+      "choices": [
+        "13",
+        "15",
+        "14",
+        "16"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer is 14.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn04",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 15% of 64?",
+      "choices": [
+        "10",
+        "14",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer is 10.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn05",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 16 + 17?",
+      "choices": [
+        "34",
+        "31",
+        "36",
+        "33"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 33.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn06",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 17 × 3?",
+      "choices": [
+        "56",
+        "51",
+        "48",
+        "68"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer is 51.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn07",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 72 ÷ 4?",
+      "choices": [
+        "19",
+        "20",
+        "17",
+        "18"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 18.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn08",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 19% of 20?",
+      "choices": [
+        "6",
+        "8",
+        "3",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 4.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn09",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 20 + 6?",
+      "choices": [
+        "29",
+        "24",
+        "27",
+        "26"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 26.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn10",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 21 × 7?",
+      "choices": [
+        "152",
+        "140",
+        "168",
+        "147"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 147.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn11",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 176 ÷ 8?",
+      "choices": [
+        "24",
+        "23",
+        "22",
+        "21"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer is 22.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn12",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 23% of 36?",
+      "choices": [
+        "7",
+        "8",
+        "12",
+        "10"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer is 8.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn13",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 24 + 10?",
+      "choices": [
+        "35",
+        "32",
+        "37",
+        "34"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 34.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn14",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 25 × 11?",
+      "choices": [
+        "300",
+        "275",
+        "264",
+        "280"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer is 275.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn15",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 312 ÷ 12?",
+      "choices": [
+        "28",
+        "25",
+        "27",
+        "26"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 26.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn16",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 27% of 52?",
+      "choices": [
+        "18",
+        "14",
+        "13",
+        "16"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer is 14.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn17",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 28 + 14?",
+      "choices": [
+        "42",
+        "40",
+        "43",
+        "45"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer is 42.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn18",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 29 × 15?",
+      "choices": [
+        "435",
+        "440",
+        "420",
+        "464"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer is 435.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn19",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 480 ÷ 16?",
+      "choices": [
+        "31",
+        "32",
+        "29",
+        "30"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 30.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn20",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 31% of 68?",
+      "choices": [
+        "21",
+        "25",
+        "23",
+        "20"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer is 21.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn21",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 12 + 3?",
+      "choices": [
+        "13",
+        "16",
+        "18",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer is 15.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn22",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 13 × 4?",
+      "choices": [
+        "57",
+        "65",
+        "52",
+        "48"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer is 52.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn23",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 70 ÷ 5?",
+      "choices": [
+        "15",
+        "14",
+        "16",
+        "13"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer is 14.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn24",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 15% of 24?",
+      "choices": [
+        "8",
+        "6",
+        "4",
+        "3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer is 4.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn25",
+      "subject": "numerical",
+      "topic": "Basic Math Operations",
+      "questionText": "What is 16 + 7?",
+      "choices": [
+        "21",
+        "24",
+        "23",
+        "26"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer is 23.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn26",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A clerk encodes 10 forms per hour. How many forms in an 8-hour shift?",
+      "choices": [
+        "82",
+        "80",
+        "85",
+        "77"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 80.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn27",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "If 11 books cost ₱160 each, what is the total cost?",
+      "choices": [
+        "673",
+        "676",
+        "671",
+        "668"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer: 671.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn28",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A train travels 12 km/h for 3 hours. Distance covered?",
+      "choices": [
+        "38",
+        "36",
+        "41",
+        "33"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 36.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn29",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "13 workers finish a job in 6 days. How many worker-days total?",
+      "choices": [
+        "83",
+        "78",
+        "75",
+        "80"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 78.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn30",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A store discounts ₱190 item by 20%. Sale price?",
+      "choices": [
+        "154",
+        "152",
+        "157",
+        "149"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 152.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn31",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A clerk encodes 15 forms per hour. How many forms in an 8-hour shift?",
+      "choices": [
+        "117",
+        "122",
+        "125",
+        "120"
+      ],
+      "correctIndex": 3,
+      "explanation": "Answer: 120.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn32",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "If 16 books cost ₱210 each, what is the total cost?",
+      "choices": [
+        "1058",
+        "1056",
+        "1053",
+        "1061"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 1056.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn33",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A train travels 5 km/h for 3 hours. Distance covered?",
+      "choices": [
+        "20",
+        "12",
+        "15",
+        "17"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer: 15.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn34",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "6 workers finish a job in 6 days. How many worker-days total?",
+      "choices": [
+        "36",
+        "41",
+        "38",
+        "33"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 36.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn35",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A store discounts ₱120 item by 20%. Sale price?",
+      "choices": [
+        "98",
+        "93",
+        "101",
+        "96"
+      ],
+      "correctIndex": 3,
+      "explanation": "Answer: 96.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn36",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A clerk encodes 8 forms per hour. How many forms in an 8-hour shift?",
+      "choices": [
+        "66",
+        "64",
+        "69",
+        "61"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 64.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn37",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "If 9 books cost ₱140 each, what is the total cost?",
+      "choices": [
+        "531",
+        "533",
+        "536",
+        "528"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 531.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn38",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A train travels 10 km/h for 3 hours. Distance covered?",
+      "choices": [
+        "32",
+        "30",
+        "35",
+        "27"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer: 30.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn39",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "11 workers finish a job in 6 days. How many worker-days total?",
+      "choices": [
+        "63",
+        "68",
+        "66",
+        "71"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer: 66.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn40",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A store discounts ₱170 item by 20%. Sale price?",
+      "choices": [
+        "136",
+        "138",
+        "133",
+        "141"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 136.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn41",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A clerk encodes 13 forms per hour. How many forms in an 8-hour shift?",
+      "choices": [
+        "104",
+        "109",
+        "106",
+        "101"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 104.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn42",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "If 14 books cost ₱190 each, what is the total cost?",
+      "choices": [
+        "896",
+        "901",
+        "898",
+        "893"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 896.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn43",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A train travels 15 km/h for 3 hours. Distance covered?",
+      "choices": [
+        "47",
+        "42",
+        "50",
+        "45"
+      ],
+      "correctIndex": 3,
+      "explanation": "Answer: 45.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn44",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "16 workers finish a job in 6 days. How many worker-days total?",
+      "choices": [
+        "101",
+        "98",
+        "93",
+        "96"
+      ],
+      "correctIndex": 3,
+      "explanation": "Answer: 96.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn45",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A store discounts ₱100 item by 20%. Sale price?",
+      "choices": [
+        "77",
+        "85",
+        "82",
+        "80"
+      ],
+      "correctIndex": 3,
+      "explanation": "Answer: 80.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn46",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A clerk encodes 6 forms per hour. How many forms in an 8-hour shift?",
+      "choices": [
+        "48",
+        "45",
+        "50",
+        "53"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 48.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn47",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "If 7 books cost ₱120 each, what is the total cost?",
+      "choices": [
+        "399",
+        "404",
+        "401",
+        "396"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 399.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rn48",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A train travels 8 km/h for 3 hours. Distance covered?",
+      "choices": [
+        "21",
+        "29",
+        "24",
+        "26"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer: 24.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rn49",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "9 workers finish a job in 6 days. How many worker-days total?",
+      "choices": [
+        "54",
+        "56",
+        "51",
+        "59"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 54.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rn50",
+      "subject": "numerical",
+      "topic": "Word Problems",
+      "questionText": "A store discounts ₱150 item by 20%. Sale price?",
+      "choices": [
+        "120",
+        "122",
+        "117",
+        "125"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer: 120.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra01",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "HOSPITAL is to DOCTOR as SCHOOL is to ___",
+      "choices": [
+        "Student",
+        "Teacher",
+        "Book",
+        "Desk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Professional works in institution.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra02",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "BIRD is to NEST as BEE is to ___",
+      "choices": [
+        "Flower",
+        "Hive",
+        "Honey",
+        "Sting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Habitat/home relation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra03",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "PAINTER is to BRUSH as WRITER is to ___",
+      "choices": [
+        "Paper",
+        "Pen",
+        "Book",
+        "Desk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tool of trade.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra04",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "COLD is to HOT as YOUNG is to ___",
+      "choices": [
+        "Child",
+        "Old",
+        "Small",
+        "New"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antonym relation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra05",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "CLOCK is to TIME as SCALE is to ___",
+      "choices": [
+        "Weight",
+        "Money",
+        "Length",
+        "Heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Measures quantity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra06",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "FISH is to SCHOOL as WOLF is to ___",
+      "choices": [
+        "Pack",
+        "Herd",
+        "Flock",
+        "Pride"
+      ],
+      "correctIndex": 0,
+      "explanation": "Collective noun.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra07",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "CHAPTER is to BOOK as SCENE is to ___",
+      "choices": [
+        "Play",
+        "Actor",
+        "Stage",
+        "Ticket"
+      ],
+      "correctIndex": 0,
+      "explanation": "Part to whole.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra08",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "ARCHITECT is to BUILDING as CHEF is to ___",
+      "choices": [
+        "Kitchen",
+        "Meal",
+        "Restaurant",
+        "Menu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Creates product.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra09",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "LENS is to CAMERA as KEYBOARD is to ___",
+      "choices": [
+        "Mouse",
+        "Computer",
+        "Screen",
+        "Printer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Component to device.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra10",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "SURGEON is to SCALPEL as GARDENER is to ___",
+      "choices": [
+        "Shovel",
+        "Flower",
+        "Soil",
+        "Tree"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tool relation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra11",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "HOSPITAL is to DOCTOR as SCHOOL is to ___",
+      "choices": [
+        "Student",
+        "Teacher",
+        "Book",
+        "Desk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Professional works in institution.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra12",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "BIRD is to NEST as BEE is to ___",
+      "choices": [
+        "Flower",
+        "Hive",
+        "Honey",
+        "Sting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Habitat/home relation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra13",
+      "subject": "analytical",
+      "topic": "Word Association",
+      "questionText": "PAINTER is to BRUSH as WRITER is to ___",
+      "choices": [
+        "Paper",
+        "Pen",
+        "Book",
+        "Desk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tool of trade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra14",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "All managers attend meetings. Juan attended a meeting. Therefore Juan is a manager. Valid?",
+      "choices": [
+        "Yes, always",
+        "No — other staff may attend",
+        "Only on Fridays",
+        "Cannot tell"
+      ],
+      "correctIndex": 1,
+      "explanation": "Attending does not prove manager status.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra15",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Statement: Traffic was heavy, so Ana was late. Conclusion: Heavy traffic causes lateness. Assumes?",
+      "choices": [
+        "Ana had no other delays",
+        "Ana drives a car",
+        "Traffic is legal",
+        "Ana likes roads"
+      ],
+      "correctIndex": 0,
+      "explanation": "Assumes no other cause for lateness.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra16",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Statement: All eligible applicants took the exam. Conclusion: No one was absent. Assumption?",
+      "choices": [
+        "Everyone was eligible",
+        "Eligible applicants actually took the exam",
+        "Exams are easy",
+        "Scores are high"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assumes eligibility group equals takers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra17",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Advertisement: Use Brand X soap to remove 99% of germs. Conclusion: You will not get sick. Gap?",
+      "choices": [
+        "Germs cause illness",
+        "Brand X is cheap",
+        "Soap smells good",
+        "Illness has one cause only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Links germ removal to health (may oversimplify).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra18",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "If funding increases, training improves. Training improved. Therefore funding increased. Error?",
+      "choices": [
+        "Affirming the consequent",
+        "Valid deduction",
+        "No error",
+        "Circular reasoning"
+      ],
+      "correctIndex": 0,
+      "explanation": "Other factors could improve training.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra19",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "All managers attend meetings. Juan attended a meeting. Therefore Juan is a manager. Valid?",
+      "choices": [
+        "Yes, always",
+        "No — other staff may attend",
+        "Only on Fridays",
+        "Cannot tell"
+      ],
+      "correctIndex": 1,
+      "explanation": "Attending does not prove manager status.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra20",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Statement: Traffic was heavy, so Ana was late. Conclusion: Heavy traffic causes lateness. Assumes?",
+      "choices": [
+        "Ana had no other delays",
+        "Ana drives a car",
+        "Traffic is legal",
+        "Ana likes roads"
+      ],
+      "correctIndex": 0,
+      "explanation": "Assumes no other cause for lateness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra21",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Statement: All eligible applicants took the exam. Conclusion: No one was absent. Assumption?",
+      "choices": [
+        "Everyone was eligible",
+        "Eligible applicants actually took the exam",
+        "Exams are easy",
+        "Scores are high"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assumes eligibility group equals takers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra22",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Advertisement: Use Brand X soap to remove 99% of germs. Conclusion: You will not get sick. Gap?",
+      "choices": [
+        "Germs cause illness",
+        "Brand X is cheap",
+        "Soap smells good",
+        "Illness has one cause only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Links germ removal to health (may oversimplify).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra23",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "If funding increases, training improves. Training improved. Therefore funding increased. Error?",
+      "choices": [
+        "Affirming the consequent",
+        "Valid deduction",
+        "No error",
+        "Circular reasoning"
+      ],
+      "correctIndex": 0,
+      "explanation": "Other factors could improve training.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra24",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "All managers attend meetings. Juan attended a meeting. Therefore Juan is a manager. Valid?",
+      "choices": [
+        "Yes, always",
+        "No — other staff may attend",
+        "Only on Fridays",
+        "Cannot tell"
+      ],
+      "correctIndex": 1,
+      "explanation": "Attending does not prove manager status.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra25",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Statement: Traffic was heavy, so Ana was late. Conclusion: Heavy traffic causes lateness. Assumes?",
+      "choices": [
+        "Ana had no other delays",
+        "Ana drives a car",
+        "Traffic is legal",
+        "Ana likes roads"
+      ],
+      "correctIndex": 0,
+      "explanation": "Assumes no other cause for lateness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra26",
+      "subject": "analytical",
+      "topic": "Identifying Assumptions and Conclusions",
+      "questionText": "Statement: All eligible applicants took the exam. Conclusion: No one was absent. Assumption?",
+      "choices": [
+        "Everyone was eligible",
+        "Eligible applicants actually took the exam",
+        "Exams are easy",
+        "Scores are high"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assumes eligibility group equals takers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra27",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "If P then Q. P is true. Therefore?",
+      "choices": [
+        "Q is true",
+        "Q is false",
+        "P is false",
+        "No conclusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus ponens.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra28",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "If P then Q. Q is false. Therefore?",
+      "choices": [
+        "P is false",
+        "P is true",
+        "Q is true",
+        "No relation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus tollens.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra29",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "Some doctors are researchers. Some researchers are writers. Can we conclude some doctors are writers?",
+      "choices": [
+        "Not necessarily",
+        "Yes, always",
+        "No doctors write",
+        "All doctors write"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two 'some' statements don't chain required overlap.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra30",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "No pets are allowed. A dog is a pet. Conclusion?",
+      "choices": [
+        "The dog is not allowed",
+        "Dogs are allowed",
+        "All animals banned",
+        "Pets are dogs only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct application.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra31",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "All A are B. All B are C. Which follows?",
+      "choices": [
+        "All A are C",
+        "All C are A",
+        "No A is C",
+        "Some C are not B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chain syllogism.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra32",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "If P then Q. P is true. Therefore?",
+      "choices": [
+        "Q is true",
+        "Q is false",
+        "P is false",
+        "No conclusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus ponens.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra33",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "If P then Q. Q is false. Therefore?",
+      "choices": [
+        "P is false",
+        "P is true",
+        "Q is true",
+        "No relation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus tollens.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra34",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "Some doctors are researchers. Some researchers are writers. Can we conclude some doctors are writers?",
+      "choices": [
+        "Not necessarily",
+        "Yes, always",
+        "No doctors write",
+        "All doctors write"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two 'some' statements don't chain required overlap.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra35",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "No pets are allowed. A dog is a pet. Conclusion?",
+      "choices": [
+        "The dog is not allowed",
+        "Dogs are allowed",
+        "All animals banned",
+        "Pets are dogs only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct application.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra36",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "All A are B. All B are C. Which follows?",
+      "choices": [
+        "All A are C",
+        "All C are A",
+        "No A is C",
+        "Some C are not B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chain syllogism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra37",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "If P then Q. P is true. Therefore?",
+      "choices": [
+        "Q is true",
+        "Q is false",
+        "P is false",
+        "No conclusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus ponens.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra38",
+      "subject": "analytical",
+      "topic": "Logic / Reasoning",
+      "questionText": "If P then Q. Q is false. Therefore?",
+      "choices": [
+        "P is false",
+        "P is true",
+        "Q is true",
+        "No relation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus tollens.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra39",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Pie chart: 25% Math, 35% English, 40% Science. Largest?",
+      "choices": [
+        "Math",
+        "English",
+        "Science",
+        "Equal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Science 40% largest.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra40",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Bar: Q1 20, Q2 30, Q3 25. Increase Q1→Q2?",
+      "choices": [
+        "10",
+        "5",
+        "15",
+        "50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "30-20=10.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra41",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Table: Dept A 40, Dept B 60, Dept C 50. Total?",
+      "choices": [
+        "140",
+        "150",
+        "130",
+        "160"
+      ],
+      "correctIndex": 1,
+      "explanation": "40+60+50=150.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra42",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Scores: Mon 70, Tue 75, Wed 80. Average?",
+      "choices": [
+        "72.5",
+        "75",
+        "76",
+        "80"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sum 225/3=75.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra43",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "40% of 250 applicants passed. How many passed?",
+      "choices": [
+        "90",
+        "100",
+        "110",
+        "125"
+      ],
+      "correctIndex": 1,
+      "explanation": "0.4×250=100.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra44",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Pie chart: 25% Math, 35% English, 40% Science. Largest?",
+      "choices": [
+        "Math",
+        "English",
+        "Science",
+        "Equal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Science 40% largest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra45",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Bar: Q1 20, Q2 30, Q3 25. Increase Q1→Q2?",
+      "choices": [
+        "10",
+        "5",
+        "15",
+        "50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "30-20=10.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra46",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Table: Dept A 40, Dept B 60, Dept C 50. Total?",
+      "choices": [
+        "140",
+        "150",
+        "130",
+        "160"
+      ],
+      "correctIndex": 1,
+      "explanation": "40+60+50=150.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra47",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Scores: Mon 70, Tue 75, Wed 80. Average?",
+      "choices": [
+        "72.5",
+        "75",
+        "76",
+        "80"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sum 225/3=75.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ra48",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "40% of 250 applicants passed. How many passed?",
+      "choices": [
+        "90",
+        "100",
+        "110",
+        "125"
+      ],
+      "correctIndex": 1,
+      "explanation": "0.4×250=100.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ra49",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Pie chart: 25% Math, 35% English, 40% Science. Largest?",
+      "choices": [
+        "Math",
+        "English",
+        "Science",
+        "Equal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Science 40% largest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ra50",
+      "subject": "analytical",
+      "topic": "Data Interpretation",
+      "questionText": "Bar: Q1 20, Q2 30, Q3 25. Increase Q1→Q2?",
+      "choices": [
+        "10",
+        "5",
+        "15",
+        "50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "30-20=10.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg01",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The Philippines is a ___ and democratic State.",
+      "choices": [
+        "Federal",
+        "Republican",
+        "Monarchic",
+        "Corporate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Article II — democratic republic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg02",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "Sovereignty resides in the ___ and all government authority emanates from them.",
+      "choices": [
+        "President",
+        "People",
+        "Congress",
+        "Courts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Popular sovereignty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg03",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The supreme law of the land is the ___",
+      "choices": [
+        "Civil Code",
+        "Constitution",
+        "Rules of Court",
+        "Local ordinance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constitution is supreme.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg04",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The legislative power is vested in ___",
+      "choices": [
+        "Supreme Court",
+        "Congress",
+        "Cabinet",
+        "COMELEC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Congress enacts laws.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg05",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The executive power is vested in the ___",
+      "choices": [
+        "Chief Justice",
+        "President",
+        "Senate President",
+        "Ombudsman"
+      ],
+      "correctIndex": 1,
+      "explanation": "President heads executive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg06",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The judicial power is vested in one Supreme Court and in such ___ courts.",
+      "choices": [
+        "lower",
+        "foreign",
+        "military only",
+        "private"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lower courts under judiciary.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg07",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "Bill of Rights is found in Article ___",
+      "choices": [
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 1,
+      "explanation": "Article III.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg08",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "No person shall be deprived of life, liberty, or property without ___",
+      "choices": [
+        "vote",
+        "due process of law",
+        "permit",
+        "tax"
+      ],
+      "correctIndex": 1,
+      "explanation": "Due process clause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg09",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "Free exercise of religion is protected under ___",
+      "choices": [
+        "police power",
+        "religious freedom",
+        "tax law",
+        "martial law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Religious freedom.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg10",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The right against self-incrimination is a ___ right.",
+      "choices": [
+        "political",
+        "constitutional",
+        "economic",
+        "corporate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constitutional right.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg11",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "Local governments enjoy local autonomy under the ___",
+      "choices": [
+        "Constitution",
+        "memo only",
+        "private contract",
+        "foreign treaty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constitutional local autonomy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg12",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The Constitutional Commission on Elections is known as ___",
+      "choices": [
+        "COA",
+        "COMELEC",
+        "CSC",
+        "CHR"
+      ],
+      "correctIndex": 1,
+      "explanation": "COMELEC handles elections.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg13",
+      "subject": "general",
+      "topic": "Philippine Constitution",
+      "questionText": "The Civil Service Commission oversees ___",
+      "choices": [
+        "elections",
+        "personnel merit system",
+        "tax collection",
+        "foreign policy"
+      ],
+      "correctIndex": 1,
+      "explanation": "CSC — civil service merit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg14",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Loyalty to the Republic and the Filipino people is ___",
+      "choices": [
+        "optional",
+        "expected",
+        "discouraged",
+        "illegal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Expected of public servants.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg15",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Sexual harassment in office violates ___ standards.",
+      "choices": [
+        "ethical",
+        "musical",
+        "sports",
+        "none"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ethical standards violation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg16",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Public officials must file SALN ___",
+      "choices": [
+        "never",
+        "periodically",
+        "only once",
+        "secretly only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Periodic filing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg17",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Gratuities from subordinates for favors are ___",
+      "choices": [
+        "ethical",
+        "questionable/prohibited",
+        "mandatory",
+        "tax-free always"
+      ],
+      "correctIndex": 1,
+      "explanation": "Generally prohibited.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg18",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Promotion must be based on ___",
+      "choices": [
+        "favor",
+        "merit and fitness",
+        "bribery",
+        "luck"
+      ],
+      "correctIndex": 1,
+      "explanation": "Merit and fitness (CSC alignment).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg19",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Officials must not discriminate on ___",
+      "choices": [
+        "merit",
+        "political belief, gender, etc.",
+        "performance",
+        "attendance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-discrimination.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg20",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Service must be delivered without ___ discrimination.",
+      "choices": [
+        "proper",
+        "improper/arbitrary",
+        "any",
+        "legal"
+      ],
+      "correctIndex": 1,
+      "explanation": "No improper discrimination.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg21",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "RA 6713 applies to public officers and ___",
+      "choices": [
+        "only judges",
+        "employees",
+        "foreign tourists",
+        "students only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Officers and employees.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg22",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Ethics includes fairness and ___",
+      "choices": [
+        "partiality",
+        "impartiality",
+        "corruption",
+        "nepotism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Impartiality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg23",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Accepting lavish entertainment from contractors may be ___",
+      "choices": [
+        "always fine",
+        "a violation",
+        "required",
+        "tax deductible"
+      ],
+      "correctIndex": 1,
+      "explanation": "Potential violation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg24",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Misdeclaration in SALN may lead to ___",
+      "choices": [
+        "praise",
+        "administrative/criminal liability",
+        "bonus",
+        "promotion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liability for false SALN.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg25",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "Citizens may report unethical acts through proper ___",
+      "choices": [
+        "gossip only",
+        "channels",
+        "violence",
+        "bribery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Proper reporting channels.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg26",
+      "subject": "general",
+      "topic": "Code of Conduct and Ethical Standards (RA 6713)",
+      "questionText": "RA 6713 is known as the ___",
+      "choices": [
+        "Anti-Graft Act",
+        "Code of Conduct and Ethical Standards",
+        "Labor Code",
+        "Tax Code"
+      ],
+      "correctIndex": 1,
+      "explanation": "RA 6713 — ethical standards.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg27",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "The Philippines is a signatory to protections against ___",
+      "choices": [
+        "education",
+        "torture",
+        "sports",
+        "commerce only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Torture prevention treaties context.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg28",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Right to life is a ___ right.",
+      "choices": [
+        "fundamental",
+        "commercial",
+        "optional",
+        "temporary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fundamental right.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg29",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Freedom from arbitrary detention protects ___",
+      "choices": [
+        "liberty",
+        "tax",
+        "trade only",
+        "copyright"
+      ],
+      "correctIndex": 0,
+      "explanation": "Personal liberty.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg30",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Right to a fair trial includes ___ hearing.",
+      "choices": [
+        "secret",
+        "impartial",
+        "biased",
+        "none"
+      ],
+      "correctIndex": 1,
+      "explanation": "Impartial hearing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg31",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Human rights apply to all persons ___",
+      "choices": [
+        "except poor",
+        "without discrimination",
+        "only citizens abroad",
+        "only officials"
+      ],
+      "correctIndex": 1,
+      "explanation": "Universal without discrimination.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg32",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Peace building includes dialogue and ___",
+      "choices": [
+        "violence",
+        "reconciliation",
+        "censorship",
+        "extortion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reconciliation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg33",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Internally displaced persons need ___",
+      "choices": [
+        "exploitation",
+        "protection and assistance",
+        "silencing",
+        "taxes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Protection and assistance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg34",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Child labor in hazardous work is ___",
+      "choices": [
+        "encouraged",
+        "prohibited",
+        "required",
+        "unregulated"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prohibited for children.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg35",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Gender-based violence should be ___",
+      "choices": [
+        "ignored",
+        "prevented and addressed",
+        "rewarded",
+        "secret"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prevented and addressed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg36",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Right to education supports human ___",
+      "choices": [
+        "dignity",
+        "tax evasion",
+        "monopoly",
+        "secrecy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dignity through education.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg37",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Freedom of expression is not ___",
+      "choices": [
+        "absolute without limits",
+        "protected at all",
+        "related to democracy",
+        "in Constitution"
+      ],
+      "correctIndex": 0,
+      "explanation": "May have lawful limits.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg38",
+      "subject": "general",
+      "topic": "Peace and Human Rights Issues",
+      "questionText": "Human Rights Commission (CHR) monitors ___",
+      "choices": [
+        "private malls only",
+        "state respect for rights",
+        "weather",
+        "traffic only"
+      ],
+      "correctIndex": 1,
+      "explanation": "State respect for rights.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg39",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Biodiversity is the variety of ___",
+      "choices": [
+        "life",
+        "rocks only",
+        "plastic",
+        "concrete"
+      ],
+      "correctIndex": 0,
+      "explanation": "Life forms and ecosystems.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg40",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Watersheds supply ___ water.",
+      "choices": [
+        "irrigation and domestic",
+        "oil",
+        "gasoline",
+        "paint"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water supply.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg41",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Single-use plastic reduction policies target ___",
+      "choices": [
+        "waste",
+        "education only",
+        "roads",
+        "radio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plastic waste reduction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg42",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Reforestation helps prevent ___",
+      "choices": [
+        "landslides and erosion",
+        "taxes",
+        "traffic",
+        "spam"
+      ],
+      "correctIndex": 0,
+      "explanation": "Erosion and landslides.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg43",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Environmental education promotes ___ behavior.",
+      "choices": [
+        "sustainable",
+        "wasteful",
+        "illegal dumping",
+        "burning tires"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sustainable behavior.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg44",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Ozone layer protection limits ___ substances.",
+      "choices": [
+        "ODS/CFC-type",
+        "oxygen",
+        "water",
+        "soil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ozone-depleting substances.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg45",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Coastal management protects ___",
+      "choices": [
+        "shorelines and mangroves",
+        "only malls",
+        "airports only",
+        "mines only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coastal ecosystems.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg46",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Hazardous waste requires ___ disposal.",
+      "choices": [
+        "safe specialized",
+        "open burning",
+        "river dumping",
+        "random"
+      ],
+      "correctIndex": 0,
+      "explanation": "Safe specialized disposal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg47",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Carbon footprint measures ___ emissions impact.",
+      "choices": [
+        "greenhouse",
+        "sound",
+        "light only",
+        "paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "GHG impact.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg48",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Environmental justice addresses fair access to ___",
+      "choices": [
+        "clean environment",
+        "luxury cars",
+        "votes only",
+        "none"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clean environment fairly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg49",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "Green procurement favors ___ products.",
+      "choices": [
+        "eco-friendly",
+        "most polluting",
+        "random",
+        "illegal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eco-friendly products.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg50",
+      "subject": "general",
+      "topic": "Environmental Management and Protection",
+      "questionText": "National Greening Program involves ___",
+      "choices": [
+        "tree planting",
+        "ocean oil spills",
+        "smoke belching only",
+        "littering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tree planting/reforestation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc01",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which name comes FIRST alphabetically?",
+      "choices": [
+        "Santos, Maria",
+        "Santos, Ana",
+        "Santos, Jose",
+        "Santos, Liza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ana before Jose, Liza, Maria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc02",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which folder comes LAST?",
+      "choices": [
+        "HR-2024",
+        "HR-2023",
+        "HR-2025",
+        "HR-2022"
+      ],
+      "correctIndex": 2,
+      "explanation": "2025 last numerically/alphabetically.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc03",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Arrange: Brown, Black, Blue, Blanco. First?",
+      "choices": [
+        "Black",
+        "Blanco",
+        "Blue",
+        "Brown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Black first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc04",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which comes first: Dela Cruz or De la Cruz?",
+      "choices": [
+        "De la Cruz",
+        "Dela Cruz",
+        "Same",
+        "Neither"
+      ],
+      "correctIndex": 0,
+      "explanation": "Space before letters in filing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc05",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "File order: Garcia, Gonzales, Guerrero, Gutierrez. Third?",
+      "choices": [
+        "Garcia",
+        "Gonzales",
+        "Guerrero",
+        "Gutierrez"
+      ],
+      "correctIndex": 2,
+      "explanation": "Guerrero third.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc06",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which letter sequence is correct?",
+      "choices": [
+        "A, C, B, D",
+        "A, B, C, D",
+        "B, A, C, D",
+        "D, C, B, A"
+      ],
+      "correctIndex": 1,
+      "explanation": "A,B,C,D order.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc07",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Numbered files: 001, 010, 100. Which is second?",
+      "choices": [
+        "001",
+        "010",
+        "100",
+        "None"
+      ],
+      "correctIndex": 1,
+      "explanation": "010 second when sorted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc08",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which surname is filed last?",
+      "choices": [
+        "Abad",
+        "Abella",
+        "Abadilla",
+        "Abalos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abella last among listed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc09",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Alphabetize: Lake, Lack, Lacy, Lace. Third entry?",
+      "choices": [
+        "Lake",
+        "Lack",
+        "Lacy",
+        "Lace"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lacy third.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc10",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which set is correctly alphabetized?",
+      "choices": [
+        "Apple, Banana, Cherry",
+        "Banana, Apple, Cherry",
+        "Cherry, Banana, Apple",
+        "Apple, Cherry, Banana"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apple, Banana, Cherry.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc11",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which name comes FIRST alphabetically?",
+      "choices": [
+        "Santos, Maria",
+        "Santos, Ana",
+        "Santos, Jose",
+        "Santos, Liza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ana before Jose, Liza, Maria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc12",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which folder comes LAST?",
+      "choices": [
+        "HR-2024",
+        "HR-2023",
+        "HR-2025",
+        "HR-2022"
+      ],
+      "correctIndex": 2,
+      "explanation": "2025 last numerically/alphabetically.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc13",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Arrange: Brown, Black, Blue, Blanco. First?",
+      "choices": [
+        "Black",
+        "Blanco",
+        "Blue",
+        "Brown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Black first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc14",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which comes first: Dela Cruz or De la Cruz?",
+      "choices": [
+        "De la Cruz",
+        "Dela Cruz",
+        "Same",
+        "Neither"
+      ],
+      "correctIndex": 0,
+      "explanation": "Space before letters in filing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc15",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "File order: Garcia, Gonzales, Guerrero, Gutierrez. Third?",
+      "choices": [
+        "Garcia",
+        "Gonzales",
+        "Guerrero",
+        "Gutierrez"
+      ],
+      "correctIndex": 2,
+      "explanation": "Guerrero third.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc16",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Which letter sequence is correct?",
+      "choices": [
+        "A, C, B, D",
+        "A, B, C, D",
+        "B, A, C, D",
+        "D, C, B, A"
+      ],
+      "correctIndex": 1,
+      "explanation": "A,B,C,D order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc17",
+      "subject": "clerical",
+      "topic": "Alphabetical Order and Filing",
+      "questionText": "Numbered files: 001, 010, 100. Which is second?",
+      "choices": [
+        "001",
+        "010",
+        "100",
+        "None"
+      ],
+      "correctIndex": 1,
+      "explanation": "010 second when sorted.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc18",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Questionnaire",
+        "Questionaire",
+        "Questionnair",
+        "Questonnaire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Questionnaire.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc19",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Conscientious",
+        "Consciencious",
+        "Conscientous",
+        "Conscienteous"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conscientious.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc20",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Millennium",
+        "Millenium",
+        "Milennium",
+        "Millenniumm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Millennium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc21",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Parallel",
+        "Paralel",
+        "Parralel",
+        "Parrallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc22",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Rhythm",
+        "Rythm",
+        "Rhytm",
+        "Rhythym"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rhythm.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc23",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Truly",
+        "Truely",
+        "Truelly",
+        "Trueley"
+      ],
+      "correctIndex": 0,
+      "explanation": "Truly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc24",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Until",
+        "Untill",
+        "Untl",
+        "Untile"
+      ],
+      "correctIndex": 0,
+      "explanation": "Until — one l.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc25",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Writing",
+        "Writeing",
+        "Writting",
+        "Wirting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Writing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc26",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Acomodation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Double c, double m.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc27",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Occured",
+        "Occurred",
+        "Ocurred",
+        "Ocured"
+      ],
+      "correctIndex": 1,
+      "explanation": "Occurred — one c, double r.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc28",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Definately",
+        "Definitely",
+        "Definitly",
+        "Definatly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Definitely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc29",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Recieve",
+        "Receive",
+        "Receieve",
+        "Recieive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Receive — i before e except after c.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc30",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Separate",
+        "Seperate",
+        "Separete",
+        "Seperrate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Separate — there is a rat in separate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc31",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Embarass",
+        "Embarrass",
+        "Embarras",
+        "Embaras"
+      ],
+      "correctIndex": 1,
+      "explanation": "Embarrass — double r, double s.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc32",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Maintainance",
+        "Maintenance",
+        "Maintenence",
+        "Maintanance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maintenance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc33",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Privilege",
+        "Priviledge",
+        "Privelige",
+        "Privilage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Privilege.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc34",
+      "subject": "clerical",
+      "topic": "Spelling",
+      "questionText": "Which is correct?",
+      "choices": [
+        "Occurrence",
+        "Occurence",
+        "Ocurrence",
+        "Occurrance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Occurrence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc35",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Which code does NOT belong? 8A2, 9B3, 0C4, 8A3",
+      "choices": [
+        "8A2",
+        "9B3",
+        "0C4",
+        "8A3"
+      ],
+      "correctIndex": 3,
+      "explanation": "8A3 breaks letter-digit pattern.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc36",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Code: A=1, B=2, C=3. What word is 3-1-20?",
+      "choices": [
+        "CAT",
+        "CAR",
+        "BAT",
+        "CAB"
+      ],
+      "correctIndex": 0,
+      "explanation": "C-A-T.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc37",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "If 4521 matches ABCD, what is 4522?",
+      "choices": [
+        "ABCE",
+        "ABCD",
+        "ABCC",
+        "ABBB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Last digit increments → E.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc38",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Series: XO, WP, VM, __. Next?",
+      "choices": [
+        "TK",
+        "UL",
+        "SJ",
+        "RK"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pattern: letter steps back, vowel/consonant shift — TK common answer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc39",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "1234 : 4321 :: 5678 : ___",
+      "choices": [
+        "8765",
+        "6785",
+        "7856",
+        "6578"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reverse digit order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc40",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Which code does NOT belong? 8A2, 9B3, 0C4, 8A3",
+      "choices": [
+        "8A2",
+        "9B3",
+        "0C4",
+        "8A3"
+      ],
+      "correctIndex": 3,
+      "explanation": "8A3 breaks letter-digit pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc41",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Code: A=1, B=2, C=3. What word is 3-1-20?",
+      "choices": [
+        "CAT",
+        "CAR",
+        "BAT",
+        "CAB"
+      ],
+      "correctIndex": 0,
+      "explanation": "C-A-T.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc42",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "If 4521 matches ABCD, what is 4522?",
+      "choices": [
+        "ABCE",
+        "ABCD",
+        "ABCC",
+        "ABBB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Last digit increments → E.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc43",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Series: XO, WP, VM, __. Next?",
+      "choices": [
+        "TK",
+        "UL",
+        "SJ",
+        "RK"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pattern: letter steps back, vowel/consonant shift — TK common answer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc44",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "1234 : 4321 :: 5678 : ___",
+      "choices": [
+        "8765",
+        "6785",
+        "7856",
+        "6578"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reverse digit order.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc45",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Which code does NOT belong? 8A2, 9B3, 0C4, 8A3",
+      "choices": [
+        "8A2",
+        "9B3",
+        "0C4",
+        "8A3"
+      ],
+      "correctIndex": 3,
+      "explanation": "8A3 breaks letter-digit pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc46",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Code: A=1, B=2, C=3. What word is 3-1-20?",
+      "choices": [
+        "CAT",
+        "CAR",
+        "BAT",
+        "CAB"
+      ],
+      "correctIndex": 0,
+      "explanation": "C-A-T.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc47",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "If 4521 matches ABCD, what is 4522?",
+      "choices": [
+        "ABCE",
+        "ABCD",
+        "ABCC",
+        "ABBB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Last digit increments → E.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rc48",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Series: XO, WP, VM, __. Next?",
+      "choices": [
+        "TK",
+        "UL",
+        "SJ",
+        "RK"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pattern: letter steps back, vowel/consonant shift — TK common answer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rc49",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "1234 : 4321 :: 5678 : ___",
+      "choices": [
+        "8765",
+        "6785",
+        "7856",
+        "6578"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reverse digit order.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rc50",
+      "subject": "clerical",
+      "topic": "Code Similarity",
+      "questionText": "Which code does NOT belong? 8A2, 9B3, 0C4, 8A3",
+      "choices": [
+        "8A2",
+        "9B3",
+        "0C4",
+        "8A3"
+      ],
+      "correctIndex": 3,
+      "explanation": "8A3 breaks letter-digit pattern.",
+      "difficulty": "hard"
     }
   ]
 }
